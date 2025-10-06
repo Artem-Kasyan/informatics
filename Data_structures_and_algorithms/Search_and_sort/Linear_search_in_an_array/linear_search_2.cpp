@@ -10,12 +10,18 @@ int main(){
     }
     int num; cin >> num;
     sort(mass, mass + c);
-    int result = 0;
+    bool result = false;
     for(int m = 0; m < c; m++){
         if(mass[m] == num){
-            result++;
+            result = 1;
         }
     }
-    cout << result;
+    if(result == 1){
+        cout << "YES";
+    }else{
+        cout << "NO";
+    }
     delete[] mass;
+
+    return 0;
 }

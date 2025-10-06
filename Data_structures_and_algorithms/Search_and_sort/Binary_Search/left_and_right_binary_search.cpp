@@ -57,5 +57,5 @@ int main(){
 
     delete[] mass;
     delete[] mass2;
-
+    return 0;
 }

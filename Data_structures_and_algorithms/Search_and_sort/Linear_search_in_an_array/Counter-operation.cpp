@@ -28,5 +28,5 @@ int main(){
         cout << mass[k] << " ";
     }
 
-
+    return 0;
 }
